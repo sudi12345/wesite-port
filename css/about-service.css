@@ -1,0 +1,41 @@
+.about-meal-box img {
+  width: 85%; }
+.about-meal-box .about-meal-text {
+  margin: auto; }
+  .about-meal-box .about-meal-text h2 {
+    font-family: "Raleway-bold";
+    font-size: 1.4rem;
+    color: var(--secondary);
+    margin-bottom: 2rem;
+    line-height: 1.3rem; }
+  .about-meal-box .about-meal-text p {
+    line-height: 1.7rem;
+    margin-bottom: 2rem; }
+
+.service {
+  background-color: var(--light); }
+  .service .card-wrapper {
+    margin-top: 8rem;
+    margin-right: -2rem; }
+  .service .card {
+    background-color: var(--heaven);
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+    border-radius: 4px;
+    margin-right: 2rem; }
+    .service .card img {
+      position: absolute;
+      top: -50px;
+      left: 50%;
+      transform: translate(-50%); }
+    .service .card h2 {
+      font-family: "Raleway-bold";
+      font-size: 1.2rem;
+      margin-top: 1rem;
+      margin-bottom: 0.9rem; }
+    .service .card p {
+      line-height: 1.6;
+      margin-bottom: 1rem; }
+
+/*# sourceMappingURL=about-service.css.map */

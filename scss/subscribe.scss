@@ -1,0 +1,45 @@
+.subscribe{
+  background-color: var(--primary);
+  .sub-img{
+    width: 90%;
+  }
+  .sub-text{
+  h1{
+    font-family: "Raleway-bold";
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  p{
+    font-family:"Raleway-medium";
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+  }
+  .input-wrap{
+    background-color: var(--heaven);
+    padding: 0.3rem;
+    border-radius: 4px;
+    input{
+      width: 100%;
+      border:none;
+      padding: 0 1rem;
+      font-size: 1rem;
+      outline: none;
+    }
+    button{
+      padding: 0.5rem 1rem;
+      border:none;
+      background-color: var(--primary);
+      color: var(--pure);
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition:all .3s ease;
+      &:hover{
+         background-color: var(--secondary);
+         
+      }
+    }
+  }
+  }
+ }

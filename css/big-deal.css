@@ -1,0 +1,32 @@
+section.big-deal {
+  background: linear-gradient(rgba(35, 43, 56, 0.9), rgba(35, 43, 56, 0.9)), url(../img/food-table.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; }
+
+.big-deal h1 {
+  color: var(--pure); }
+.big-deal .timer {
+  margin-right: -2rem;
+  margin-bottom: 2rem; }
+  .big-deal .timer .time {
+    margin-right: 2rem;
+    background-color: var(--primary);
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center; }
+    .big-deal .timer .time span:first-child {
+      font-family: "Raleway-semibold";
+      color: var(--heaven);
+      font-size: 2.5rem;
+      margin-bottom: 0.05rem; }
+    .big-deal .timer .time span:last-child {
+      font-family: "Raleway-medium";
+      color: var(--heaven); }
+
+/*# sourceMappingURL=big-deal.css.map */

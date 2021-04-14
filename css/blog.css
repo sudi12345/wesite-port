@@ -1,0 +1,28 @@
+.blog {
+  background-color: var(--light);
+  position: relative;
+  z-index: 0; }
+  .blog .blog-btn {
+    margin-top: 2rem; }
+  .blog .article-wrapper {
+    margin-right: -2rem; }
+    .blog .article-wrapper .article-card {
+      margin-right: 2rem;
+      background-color: var(--heaven);
+      border-radius: 4px; }
+      .blog .article-wrapper .article-card .card-content {
+        padding: 2rem; }
+        .blog .article-wrapper .article-card .card-content h2 {
+          font-family: "Raleway-bold";
+          font-size: 1.3rem;
+          margin-bottom: 1rem; }
+        .blog .article-wrapper .article-card .card-content p {
+          line-height: 1.4rem; }
+        .blog .article-wrapper .article-card .card-content .post-meta {
+          margin-bottom: 1rem; }
+          .blog .article-wrapper .article-card .card-content .post-meta .comment-count {
+            margin-left: 1rem; }
+      .blog .article-wrapper .article-card img {
+        width: 100%; }
+
+/*# sourceMappingURL=blog.css.map */
